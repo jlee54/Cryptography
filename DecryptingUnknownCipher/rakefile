@@ -1,0 +1,5 @@
+task :default => [:program]
+
+task :program do
+  ruby "Decrypt.rb"
+end
